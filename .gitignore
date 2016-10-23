@@ -1,20 +1,10 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
+.DS_Store
+bin/*/
+*build-*
 *~
-_autosave-*
-*.tmp
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-.dsn
-
-# Exported BOM files
-*.xml
-*.csv
+build-tmp/
+Makefile
+doc/
+debug.txt
+.ycm_extra_conf.pyc
+.ropeproject
