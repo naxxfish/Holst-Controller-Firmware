@@ -772,3 +772,4 @@ void ControlInterface::setDmx()
 	char value = (char) String(param).toInt();
 	_systemController->setDMX(channel,value);
 }
+

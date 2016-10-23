@@ -365,3 +365,4 @@ void MotorControl::printMotor(char devId)
 			CTRL_SERIAL.printf(" unknown: %0x\n",ptr->statusFlags.resetFlags);
 	}
 }
+

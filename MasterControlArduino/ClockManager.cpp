@@ -5,7 +5,7 @@
 	Deals with the RTC and system time
 	
 */
-#include <Time.h>
+#include <TimeLib.h>
 #if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
 #else
@@ -85,3 +85,4 @@ void ClockManager::setTicking(bool onoff)
 {
 	_ticking = onoff;
 }
+

@@ -1,14 +1,14 @@
 /*
 
 	ClockManager.h
-	
+
 	Deals with the RTC and system time
 
 */
 
 #ifndef CLOCKMANAGER_H
 #define CLOCKMANAGER_H
-#include <Time.h>
+#include <TimeLib.h>
 
 class ClockManager{
 	public:

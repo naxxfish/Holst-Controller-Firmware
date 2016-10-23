@@ -351,3 +351,4 @@ void SystemControl::issueCue(String cue)
 		setDMX(devId,percent);
 	}
 }
+
